@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MainSuma {
+public class MainMultiplicacion {
     public static void main(String[] args) {
 
         Scanner op = new Scanner(System.in);
@@ -10,12 +10,12 @@ public class MainSuma {
         System.out.print("\nIngresa el segundo valor: ");
         int Y = op.nextInt();
 
-        Suma s1 = new Suma();
+        Multiplicacion m1 = new Multiplicacion();
 
-        s1.x = X;
-        s1.y = Y;
-        
-        s1.Sumar();
+        m1.x = X;
+        m1.y = Y;
+
+        m1.Multiplicar();
 
     }
 }

@@ -11,7 +11,7 @@ public class Producto10Numeros {
         do {
 
             System.out.println("\nIngresa 0: Cerrar programa");
-            System.out.println("Ingresa 1: Imprimir multiplicacion de los primeros 10 numeros impares");
+            System.out.println("Ingresa 1: Imprimir producto de los primeros 10 numeros impares");
             x = pro.nextInt();
 
             if (x == 1) {
@@ -22,7 +22,6 @@ public class Producto10Numeros {
 
                     if (contador % 2 != 0) {
 
-                        System.out.println(contador);
 
                         producto *= contador;
 

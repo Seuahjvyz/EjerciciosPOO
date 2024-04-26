@@ -10,7 +10,7 @@ public class NotasNumericas {
         do {
 
             System.out.println("\nIngresa 0: Cerrar programa");
-            System.out.println("Ingresa 1: ");
+            System.out.println("Ingresa 1: Numerosxd");
             x = nm.nextInt();
 
             if (x == 1) {

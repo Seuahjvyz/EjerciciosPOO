@@ -1,5 +1,5 @@
-class Suma {
-    
+public class Suma {
+
     int x, y;
 
     Suma() {

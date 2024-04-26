@@ -9,7 +9,7 @@ class MainPersona {
         String name = op.nextLine();
         System.out.print("Ingresa tu apellido: ");
         String lastname = op.nextLine();
-        System.out.print("Ingresa tu edad edad: ");
+        System.out.print("Ingresa tu edad: ");
         int age = op.nextInt();
         System.out.print("Ingresa tu altura: ");
         double height = op.nextDouble();
