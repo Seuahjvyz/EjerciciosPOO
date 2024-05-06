@@ -1,6 +1,7 @@
 import java.util.*;
 
 public class SumaTotal8Numeros {
+    
     public static void main(String[] args) {
 
         Scanner st = new Scanner(System.in);

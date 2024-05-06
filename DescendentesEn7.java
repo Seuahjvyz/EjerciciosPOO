@@ -1,6 +1,7 @@
 import java.util.*;
 
 public class DescendentesEn7 {
+    
     public static void main(String[] args) {
 
         Scanner desc = new Scanner(System.in);
@@ -28,4 +29,5 @@ public class DescendentesEn7 {
         } while (x == 1);
 
     }
+
 }

@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class NumerosCuadrados {
+    
     public static void main(String[] args) {
 
         Scanner nc = new Scanner(System.in);

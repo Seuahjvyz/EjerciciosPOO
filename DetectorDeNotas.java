@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class DetectorDeNotas {
+    
     public static void main(String[] args) {
 
         Scanner dn = new Scanner(System.in);

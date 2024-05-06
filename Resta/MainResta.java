@@ -6,16 +6,18 @@ public class MainResta {
         Scanner leer = new Scanner(System.in);
 
         System.out.print("\nIngresa el primer valor: ");
-        int X = leer.nextInt();
+        int x1 = leer.nextInt();
         System.out.print("\nIngresa el segundo valor: ");
-        int Y = leer.nextInt();
+        int y1 = leer.nextInt();
 
         Resta r1 = new Resta();
 
-        r1.x = X;
-        r1.y = Y;
+        r1.setX(x1);
+        r1.setY(y1);
 
-        r1.Restar();
+        System.out.println(r1);
+
+        System.out.println("\nLa resta es: " + r1.getRestar() + "\n");
 
     }
 }

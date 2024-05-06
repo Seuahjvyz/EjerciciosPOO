@@ -1,11 +1,33 @@
 public class Multiplicacion {
 
-    int x, y;
+    private int x, y;
 
     Multiplicacion() {
     }
 
-    public void Multiplicar() {
-        System.out.println("\nLa multiplicacion es: " + (this.x * this.y) + "\n");
+    public int getMultiplicar() {
+        return this.x * this.y;
     }
+
+    @Override
+    public String toString() {
+        return "\nMultiplicacion [x=" + x + ", y=" + y + "]";
+    }
+
+    public int getX() {
+        return x;
+    }
+
+    public void setX(int x) {
+        this.x = x;
+    }
+
+    public int getY() {
+        return y;
+    }
+
+    public void setY(int y) {
+        this.y = y;
+    }
+
 }

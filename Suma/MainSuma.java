@@ -1,21 +1,25 @@
 import java.util.Scanner;
 
 public class MainSuma {
+
     public static void main(String[] args) {
 
         Scanner op = new Scanner(System.in);
 
         System.out.print("\nIngresa el primer valor: ");
-        int X = op.nextInt();
+        int x1 = op.nextInt();
         System.out.print("\nIngresa el segundo valor: ");
-        int Y = op.nextInt();
+        int y1 = op.nextInt();
 
         Suma s1 = new Suma();
 
-        s1.x = X;
-        s1.y = Y;
+        s1.setX(x1);
+        s1.setY(y1);
         
-        s1.Sumar();
+        System.out.println(s1);
+
+        System.out.println("\nLa suma es: "+s1.getSumar()+"\n");
 
     }
+
 }

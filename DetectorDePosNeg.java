@@ -1,6 +1,7 @@
 import java.util.*;
 
 public class DetectorDePosNeg {
+
     public static void main(String[] args) {
 
         Scanner leer = new Scanner(System.in);
@@ -38,6 +39,7 @@ public class DetectorDePosNeg {
                     }
 
                 }
+                
                 System.out.println("\nIngresa un numero positivo o negativo");
 
             }

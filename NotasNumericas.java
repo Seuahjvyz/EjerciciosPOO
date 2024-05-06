@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class NotasNumericas {
+    
     public static void main(String[] args) {
 
         Scanner nm = new Scanner(System.in);

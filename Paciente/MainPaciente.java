@@ -12,7 +12,6 @@ public class MainPaciente {
         System.out.print("Ingresa tu numero de seguridad social: ");
         int NSS = leer.nextInt();
 
-
         Paciente p1 = new Paciente();
 
         p1.nombre = name;
